@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Sign in</title>
+</head>
+
+<body>
+  <section class="auth">
+
+    <div class="auth-method">
+      <a class="auth-method__link auth-method__link--active" href="">Sign in</a>
+      <a class="auth-method__link" href="">Join us</a>
+    </div>
+
+    <form action="" class="form">
+      <div class="form__element">
+        <label for="username" class="form__label">Username</label>
+        <input name="username" type="text" class="form__input" id="username">
+      </div>
+
+      <div class="form__element">
+        <label for="password" class="form__label">Password</label>
+        <input name="password" class="form__input" type="password" id="password">
+      </div>
+
+      <div class="form__element">
+        <input type="checkbox" name="checkbox" class="form__input" id="checkbox">
+        <label for="checkbox" class="form__checkbox-label">Keep me signed in</label>
+      </div>
+
+      <div class="form__element">
+        <input type="submit" class="form__input submit" value="Sign in">
+      </div>
+    </form>
+
+    <div class="additional">
+      <a href="#" class="additional__link">Forgot password</a>
+      <a href="#" class="additional__link">Create an account</a>
+    </div>
+
+  </section>
+</body>
+
+</html>
